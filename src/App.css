@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -161,7 +162,18 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
+  .App {
+    padding: 10px; /* Add padding for better spacing on smaller screens */
+  }
+
   .job-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* 1 item per row */
+    gap: 15px;
+  }
+
+  .job-card {
+    padding: 15px; /* Adjust padding inside cards */
+    margin: 0 auto; /* Ensure cards are centered */
+    max-width: 90%; /* Prevent cards from stretching too wide */
   }
 }
