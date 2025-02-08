@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import useFetchJobs from "./hooks/useFetchJobs";
-import JobList from "./components/Joblist";
+import useFetchJobs from "./hooks/useFetchJobs.js";
+import JobList from "./components/JobList.jsx";
 import "./App.css";
-import LoadMoreButton from "./components/LoadMoreButton";
+import LoadMoreButton from "./components/LoadMoreButton.jsx";
 
 const App = () => {
   const [limit, setLimit] = useState(5);

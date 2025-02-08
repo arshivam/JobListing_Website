@@ -1,5 +1,5 @@
 import React from 'react';
-import JobCard from './JobCard';
+import JobCard from './JobCard.jsx';
 import LoadMoreButton from './LoadMoreButton';
 
 const JobList = ({ jobs, loading, onLoadMoreJobs }) => {
