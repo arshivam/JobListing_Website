@@ -123,8 +123,8 @@ h1 {
 }
 
 
-/* Load More Button */
-.load-more-button {
+/* Load Button */
+.loadButton {
   display: inline-block;
   padding: 12px 25px;
   font-size: 1.1rem;
@@ -137,21 +137,13 @@ h1 {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.load-more-button:hover {
+.loadButton:hover {
   background-color: #2ecc71;
   transform: translateY(-3px);
 }
 
-.load-more-button:active {
+.loadButton:active {
   transform: translateY(3px);
-}
-
-/* Loading Spinner */
-.loading {
-  font-size: 1.2rem;
-  color: #3498db;
-  margin-top: 20px;
-  font-weight: 600;
 }
 
 /* Responsive Design for medium and mobile devices */
